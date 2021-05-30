@@ -1,0 +1,24 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.main-container {
+    height: 100%;
+    background: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-helo {
+    width: 320px;
+    height: 320px;
+    border-radius: 24px;
+    background-image: url("../Images/idle.jpg");
+}
+
+.img-helo:hover {
+    background-image: url("../Images/hover.jpg");
+}
