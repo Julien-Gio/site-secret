@@ -1,12 +1,33 @@
 <HTML>
 
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./CSS/style2.css"/>
 </head>
 
 <body>
-    <h1>Bonne chance pour la suite.</h1>
-    <p>On sera toujours là pour t'aider si besoin, en attendant défonce tout</p>
+    <script src="./JS/pageDeux.js"></script>
+    
+    <div class="main-container">
+        <div id="thingy" class="no-animation">
+            <div class="front card text-center ignore-ptr">
+                <h2 class="card-title ">Blabla</h2>
+                <p class="card-body ">Blablabla On sera toujours là pour t'aider si besoin, en attendant défonce tout</p>
+                <button class="btn btn-primary no-ignore-ptr mx-auto mb-3" onclick="onMysteryButtonClick();">?</button>
+            </div>
+
+
+            <div class="back">
+                <button class="btn btn-sm text-light" onclick="onMysteryButtonClick();">&lt;</button>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </HTML>
