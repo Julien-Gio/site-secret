@@ -60,6 +60,11 @@ body {
 }
 
 
+.img-tete {
+    width: 20%;
+    max-height: auto;
+}
+
 /* https://animista.net/play/basic/flip/flip-horizontal-fwd */
 
 .flip-horizontal-fwd {
