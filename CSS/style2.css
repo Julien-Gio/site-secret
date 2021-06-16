@@ -15,9 +15,8 @@ p {
 }
 
 #thingy {
-    max-height: 20em;
-    width: 30%;
-    height: 30%;
+    width: 38%;
+    height: 26em;
     display: block;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
